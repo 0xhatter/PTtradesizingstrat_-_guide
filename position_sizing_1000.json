@@ -1,0 +1,188 @@
+{
+  "portfolio_capital": 1000.0,
+  "position_sizing_table": {
+    "HIGH": {
+      "1x": {
+        "allowed": true,
+        "confidence": "HIGH",
+        "base_kelly_size": 146.0,
+        "position_size": 146.0,
+        "margin_required": 7.300000000000001,
+        "leverage": 1,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.92,
+        "risk_pct_of_capital": 0.292,
+        "correlation_adjusted": false
+      },
+      "2x": {
+        "allowed": true,
+        "confidence": "HIGH",
+        "base_kelly_size": 146.0,
+        "position_size": 146.0,
+        "margin_required": 3.6500000000000004,
+        "leverage": 2,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.92,
+        "risk_pct_of_capital": 0.292,
+        "correlation_adjusted": false
+      },
+      "5x": {
+        "allowed": true,
+        "confidence": "HIGH",
+        "base_kelly_size": 146.0,
+        "position_size": 146.0,
+        "margin_required": 1.4600000000000002,
+        "leverage": 5,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.92,
+        "risk_pct_of_capital": 0.292,
+        "correlation_adjusted": false
+      },
+      "10x": {
+        "allowed": true,
+        "confidence": "HIGH",
+        "base_kelly_size": 146.0,
+        "position_size": 146.0,
+        "margin_required": 0.7300000000000001,
+        "leverage": 10,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.92,
+        "risk_pct_of_capital": 0.292,
+        "correlation_adjusted": false
+      }
+    },
+    "MEDIUM": {
+      "1x": {
+        "allowed": true,
+        "confidence": "MEDIUM",
+        "base_kelly_size": 110.0,
+        "position_size": 110.0,
+        "margin_required": 5.5,
+        "leverage": 1,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.2,
+        "risk_pct_of_capital": 0.22,
+        "correlation_adjusted": false
+      },
+      "2x": {
+        "allowed": true,
+        "confidence": "MEDIUM",
+        "base_kelly_size": 110.0,
+        "position_size": 110.0,
+        "margin_required": 2.75,
+        "leverage": 2,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.2,
+        "risk_pct_of_capital": 0.22,
+        "correlation_adjusted": false
+      },
+      "5x": {
+        "allowed": true,
+        "confidence": "MEDIUM",
+        "base_kelly_size": 110.0,
+        "position_size": 110.0,
+        "margin_required": 1.1,
+        "leverage": 5,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.2,
+        "risk_pct_of_capital": 0.22,
+        "correlation_adjusted": false
+      },
+      "10x": {
+        "allowed": true,
+        "confidence": "MEDIUM",
+        "base_kelly_size": 110.0,
+        "position_size": 110.0,
+        "margin_required": 0.55,
+        "leverage": 10,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 2.2,
+        "risk_pct_of_capital": 0.22,
+        "correlation_adjusted": false
+      }
+    },
+    "LOW": {
+      "1x": {
+        "allowed": true,
+        "confidence": "LOW",
+        "base_kelly_size": 55.0,
+        "position_size": 55.0,
+        "margin_required": 2.75,
+        "leverage": 1,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 1.1,
+        "risk_pct_of_capital": 0.11,
+        "correlation_adjusted": false
+      },
+      "2x": {
+        "allowed": true,
+        "confidence": "LOW",
+        "base_kelly_size": 55.0,
+        "position_size": 55.0,
+        "margin_required": 1.375,
+        "leverage": 2,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 1.1,
+        "risk_pct_of_capital": 0.11,
+        "correlation_adjusted": false
+      },
+      "5x": {
+        "allowed": true,
+        "confidence": "LOW",
+        "base_kelly_size": 55.0,
+        "position_size": 55.0,
+        "margin_required": 0.55,
+        "leverage": 5,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 1.1,
+        "risk_pct_of_capital": 0.11,
+        "correlation_adjusted": false
+      },
+      "10x": {
+        "allowed": true,
+        "confidence": "LOW",
+        "base_kelly_size": 55.0,
+        "position_size": 55.0,
+        "margin_required": 0.275,
+        "leverage": 10,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 1.1,
+        "risk_pct_of_capital": 0.11,
+        "correlation_adjusted": false
+      }
+    }
+  },
+  "expected_distribution": {
+    "total_trades": 100,
+    "distribution": {
+      "HIGH": {
+        "count": 67,
+        "percentage": 67.0,
+        "position_size": 146.0,
+        "total_capital": 9782.0
+      },
+      "MEDIUM": {
+        "count": 31,
+        "percentage": 31.0,
+        "position_size": 110.0,
+        "total_capital": 3410.0
+      },
+      "LOW": {
+        "count": 2,
+        "percentage": 2.0,
+        "position_size": 55.0,
+        "total_capital": 110.0
+      }
+    },
+    "avg_position_size": 133.02,
+    "total_capital_deployed": 13302.0
+  },
+  "configuration": {
+    "high_kelly": 0.146,
+    "medium_kelly": 0.11,
+    "low_kelly": 0.055,
+    "max_position_pct": 0.2,
+    "max_total_exposure_pct": 1.5,
+    "stop_loss_pct": 0.02
+  }
+}
