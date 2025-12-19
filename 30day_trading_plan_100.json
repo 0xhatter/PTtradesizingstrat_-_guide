@@ -1,0 +1,130 @@
+{
+  "starting_capital": 100.0,
+  "duration_days": 30,
+  "trades_per_day": 5,
+  "total_trades": 150,
+  "position_sizing": {
+    "HIGH": {
+      "Q-Pulse": {
+        "confidence": "HIGH",
+        "strategy": "Q-Pulse",
+        "position_size": 21.9,
+        "recommended_leverage": 10.0,
+        "margin_required": 2.19,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 0.438,
+        "risk_pct_of_capital": 0.438,
+        "kelly_fraction": 21.9
+      },
+      "Q-Trend": {
+        "confidence": "HIGH",
+        "strategy": "Q-Trend",
+        "position_size": 21.9,
+        "recommended_leverage": 10.0,
+        "margin_required": 2.19,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 0.438,
+        "risk_pct_of_capital": 0.438,
+        "kelly_fraction": 21.9
+      },
+      "Q-Mean-Rev": {
+        "confidence": "HIGH",
+        "strategy": "Q-Mean-Rev",
+        "position_size": 21.9,
+        "recommended_leverage": 10.0,
+        "margin_required": 2.19,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 0.438,
+        "risk_pct_of_capital": 0.438,
+        "kelly_fraction": 21.9
+      }
+    },
+    "MEDIUM": {
+      "Q-Pulse": {
+        "confidence": "MEDIUM",
+        "strategy": "Q-Pulse",
+        "position_size": 16.5,
+        "recommended_leverage": 5.0,
+        "margin_required": 3.3,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 0.33,
+        "risk_pct_of_capital": 0.33,
+        "kelly_fraction": 16.5
+      },
+      "Q-Trend": {
+        "confidence": "MEDIUM",
+        "strategy": "Q-Trend",
+        "position_size": 16.5,
+        "recommended_leverage": 5.0,
+        "margin_required": 3.3,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 0.33,
+        "risk_pct_of_capital": 0.33,
+        "kelly_fraction": 16.5
+      },
+      "Q-Mean-Rev": {
+        "confidence": "MEDIUM",
+        "strategy": "Q-Mean-Rev",
+        "position_size": 16.5,
+        "recommended_leverage": 5.0,
+        "margin_required": 3.3,
+        "stop_loss_pct": 2.0,
+        "risk_amount": 0.33,
+        "risk_pct_of_capital": 0.33,
+        "kelly_fraction": 16.5
+      }
+    }
+  },
+  "trade_distribution": {
+    "HIGH": {
+      "Q-Pulse": 76,
+      "Q-Trend": 23,
+      "Q-Mean-Rev": 3,
+      "Total": 102
+    },
+    "MEDIUM": {
+      "Q-Pulse": 36,
+      "Q-Trend": 11,
+      "Q-Mean-Rev": 1,
+      "Total": 48
+    }
+  },
+  "projections": {
+    "total_trades": 150.0,
+    "distribution": {
+      "HIGH": {
+        "Q-Pulse": 76,
+        "Q-Trend": 23,
+        "Q-Mean-Rev": 3,
+        "Total": 102
+      },
+      "MEDIUM": {
+        "Q-Pulse": 36,
+        "Q-Trend": 11,
+        "Q-Mean-Rev": 1,
+        "Total": 48
+      }
+    },
+    "expected_wins": 87.0,
+    "expected_losses": 63.0,
+    "expected_win_rate": 57.99999999999999,
+    "expected_pnl": 67.887,
+    "conservative_pnl": 47.5209,
+    "expected_final_capital": 147.52089999999998,
+    "expected_roi": 47.52089999999998,
+    "avg_pnl_per_trade": 0.45258,
+    "starting_capital": 100.0
+  },
+  "daily_target": {
+    "total_trades": 5,
+    "high_confidence": "3-4 trades",
+    "medium_confidence": "1-2 trades"
+  },
+  "risk_management": {
+    "stop_loss": "2% on every trade",
+    "max_leverage_high": 10,
+    "max_leverage_medium": 5,
+    "max_single_position": 50.0,
+    "max_total_exposure": 200.0
+  }
+}
